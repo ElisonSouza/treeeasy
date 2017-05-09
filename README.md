@@ -13,8 +13,11 @@ Executando o projeto:
 - Criar a base de dados conforme especificação abaixo:
 
 URL = jdbc:mysql://localhost:3306/treasy
+
 USER = root
+
 PASSWORD = treasy
+
 
 Executar o CREATE TABLE:
 
@@ -28,4 +31,4 @@ CREATE TABLE `treedata` (
 
 Após inserir o treeeasy.war no tomcat e iniciar, executar a seguinte url:
 
-- http://localhost:8080/treeeasy/info/home
+- http://localhost:8180/treeeasy/info/home
