@@ -1,7 +1,7 @@
 var app = angular.module('myApp', ['ngResource']);
 
 app.factory('TreeData', ['$resource', function ($resource) {
-    return $resource('http://localhost:8080/treeeasy/info/tree/:treeId', {treeId: '@pid'},
+    return $resource('http://localhost:8180/treeeasy/info/tree/:treeId', {treeId: '@pid'},
 	{
 		updateTreeData: {method: 'PUT'}
 	}
